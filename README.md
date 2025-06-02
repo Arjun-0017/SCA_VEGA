@@ -9,8 +9,8 @@ Dependencies files are **[aes.c](https://github.com/Arjun-0017/SCA_VEGA/blob/mai
 The **[implementation.c](https://github.com/Arjun-0017/SCA_VEGA/blob/main/implementation.c)** code reads data from **[Power_Trace_Data.csv](https://github.com/Arjun-0017/SCA_VEGA/blob/main/Power_Trace_Data.csv)** file and then processes the data.  
 
 ### Generated output
-+ Mean Power
-+ Peak Power
-+ Total Energy
-+ Hamming Distance
++ Mean Power (Mean)
++ Peak Power (Peak)
++ Total Energy (Energy)
++ Hamming Distance (HammingDist)
 
