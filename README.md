@@ -24,13 +24,13 @@ Functions
 + main
 --------------------------------
 ### load_data_from_csv
-This function reads data from **Power_Trace_Data.csv** and stores the data plaintexts, ciphertexts, keys, power traces.  
+This function reads data from **[Power_Trace_Data.csv](https://github.com/Arjun-0017/SCA_VEGA/blob/main/Power_Trace_Data.csv)** and stores the data plaintexts, ciphertexts, keys, power traces.  
 
 ### hamming_distance
 This function reads the stored data **ciphertexts** and internally computes **hamming distance**.  
 
 ### extract_features
-This functin loads the power trace data (floating point data).  
+This functin loads the **Power Trace** data (floating point data) from the **[Power_Trace_Data.csv](https://github.com/Arjun-0017/SCA_VEGA/blob/main/Power_Trace_Data.csv)**.  
 And calculates Mean Power, Peak Power, Total Energy  (All data calculated in floating point format)  
 
 ### float_to_fixed_bin
