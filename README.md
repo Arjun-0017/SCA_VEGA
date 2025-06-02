@@ -14,3 +14,6 @@ The **[implementation.c](https://github.com/Arjun-0017/SCA_VEGA/blob/main/implem
 + Total Energy (Energy)
 + Hamming Distance (HammingDist)
 
+-----------------------------------------------------
+### Working flow of implementation.c code
+Functions
