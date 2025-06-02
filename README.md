@@ -36,6 +36,7 @@ And calculates Mean Power, Peak Power, Total Energy  (All data calculated in flo
 ### float_to_fixed_bin
 This function represents the calculated floating point data into fixed point representation.  
 Here we've used Qm.n format, where m=2, n=10, i.e Q2.10 format.  
+
 ---------------------------------------------
 |     Field         | Floating |  Fixed     |
 |-------------------|----------|------------|
