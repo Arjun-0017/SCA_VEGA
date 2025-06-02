@@ -27,7 +27,7 @@ Functions
 This function reads data from **Power_Trace_Data.csv** and stores the data plaintexts, ciphertexts, keys, power traces.  
 
 ### hamming_distance
-This function reads the stored data **ciphertexts** and internally computes hamming distance.  
+This function reads the stored data **ciphertexts** and internally computes **hamming distance**.  
 
 ### extract_features
 This functin loads the power trace data (floating point data).  
@@ -37,14 +37,14 @@ And calculates Mean Power, Peak Power, Total Energy  (All data calculated in flo
 This function represents the calculated floating point data into fixed point representation.  
 Here we've used Qm.n format, where m=2, n=10, i.e Q2.10 format.  
 
----------------------------------------------
-|     Field         | Floating |  Fixed     |
-|-------------------|----------|------------|
-| Mean Power        | mean     | mean_bin   |
-| Peak Power        | peak     | peak_bin   |
-| Total energy      | energy   | enregy_bin |
-| Hamming Distance  | h_dist   | hd_bin     |
----------------------------------------------
+--------------------------------------------------------------------------
+|     Field         | Floating point variable |  Fixed point variable    |
+|-------------------|-------------------------|--------------------------|
+| Mean Power        | mean                    | mean_bin                 |
+| Peak Power        | peak                    | peak_bin                 |
+| Total energy      | energy                  | enregy_bin               |
+| Hamming Distance  | h_dist                  | hd_bin                   |
+--------------------------------------------------------------------------
 
 ### main
 Finally we call the functions inside our main function and perform the operation.
