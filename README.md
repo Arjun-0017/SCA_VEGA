@@ -46,6 +46,5 @@ Here we've used Qm.n format, where m=2, n=10, i.e Q2.10 format.
 | Hamming Distance  | h_dist   | hd_bin     |
 ---------------------------------------------
 
-
-
-
+### main
+Finally we call the functions inside our main function and perform the operation.
