@@ -2,6 +2,6 @@
 ### Created by Team "RTL Rangers"
 
 ----------------------------------------------------
-Main file is implementation.c  
-Dependencies files are aes.c aes.h  
+Main file is **implementation.c**  
+Dependencies files are **aes.c** and **aes.h**  
 
