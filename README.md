@@ -17,3 +17,9 @@ The **[implementation.c](https://github.com/Arjun-0017/SCA_VEGA/blob/main/implem
 -----------------------------------------------------
 ### Working flow of implementation.c code
 Functions
++ hamming_distance
++ extract_features
++ load_data_from_csv
++ float_to_fixed_bin
++ main
+--------------------------------
