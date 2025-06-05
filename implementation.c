@@ -7,13 +7,13 @@
 #include <math.h>
 #include "aes.h"
 
-#define NUM_SAMPLES 3500
+#define NUM_SAMPLES 2000
 #define TRACE_LENGTH 1024
 
 // Fixed-point config
-#define FIXED_TOTAL_BITS 12
-#define FIXED_M 2
-#define FIXED_N 10
+#define FIXED_TOTAL_BITS 10
+#define FIXED_M 3
+#define FIXED_N 7
 
 #define HAMMING_TOTAL_BITS 8
 #define HAMMING_M 8
