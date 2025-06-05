@@ -131,7 +131,7 @@ void load_data_from_csv(const char *filename) {
 }
 
 int main() {
-    load_data_from_csv("Power_Trace_Train.csv");
+    load_data_from_csv("Power_Trace_Data.csv");
 
     for (int i = 0; i < NUM_SAMPLES; i++) {
         uint8_t computed_ct[16];
